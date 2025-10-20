@@ -26,7 +26,9 @@ class _QuizScreenState extends State<QuizScreen> {
   }
 
   Future<void> loadQuestions() async {
-    final data = await rootBundle.loadString('lib/data/questions.json');
+    final data = await rootBundle.loadString('assets/data/questions.json');
+
+
     final jsonData = json.decode(data);
     final levelData = jsonData[widget.level] as List;
     setState(() {

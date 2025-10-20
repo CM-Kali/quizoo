@@ -1,0 +1,2481 @@
+{
+  "easy": [
+    {
+      "question": "What is Flutter?",
+      "options": [
+        "Programming language",
+        "Framework",
+        "Operating system",
+        "Text editor"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Who developed Flutter?",
+      "options": [
+        "Apple",
+        "Microsoft",
+        "Google",
+        "Facebook"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which language is used by Flutter?",
+      "options": [
+        "Java",
+        "Kotlin",
+        "Dart",
+        "Swift"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Flutter is mainly used to develop which type of apps?",
+      "options": [
+        "Websites",
+        "Desktop apps",
+        "Mobile apps",
+        "APIs"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the default file extension for Dart files?",
+      "options": [
+        ".dart",
+        ".java",
+        ".kt",
+        ".swift"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is a widget in Flutter?",
+      "options": [
+        "Component of UI",
+        "A library",
+        "A package",
+        "A file"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Flutter uses which rendering engine?",
+      "options": [
+        "Blink",
+        "WebKit",
+        "Skia",
+        "EdgeHTML"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the function that starts every Flutter app?",
+      "options": [
+        "main()",
+        "run()",
+        "init()",
+        "start()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which function runs the Flutter app?",
+      "options": [
+        "initApp()",
+        "runApp()",
+        "startApp()",
+        "buildApp()"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of pubspec.yaml?",
+      "options": [
+        "Add dependencies",
+        "Manage fonts",
+        "Include assets",
+        "All of these"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which folder contains Dart source code?",
+      "options": [
+        "lib",
+        "src",
+        "bin",
+        "assets"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does SDK stand for?",
+      "options": [
+        "Software Development Kit",
+        "System Data Kit",
+        "Source Developer Key",
+        "Service Development Kit"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is Hot Reload in Flutter?",
+      "options": [
+        "Restarts app",
+        "Instantly updates UI changes",
+        "Deletes cache",
+        "Compiles release build"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which company maintains Dart?",
+      "options": [
+        "Microsoft",
+        "Facebook",
+        "Google",
+        "Apple"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which command creates a new Flutter project?",
+      "options": [
+        "flutter create",
+        "flutter new",
+        "flutter start",
+        "flutter project"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which command runs a Flutter app?",
+      "options": [
+        "flutter run",
+        "flutter start",
+        "flutter execute",
+        "flutter open"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is StatelessWidget used for?",
+      "options": [
+        "Static UI",
+        "Dynamic UI",
+        "Database",
+        "Animations"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is StatefulWidget used for?",
+      "options": [
+        "Static UI",
+        "UI that changes",
+        "Networking",
+        "Images"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the base class for widgets?",
+      "options": [
+        "Widget",
+        "StatelessWidget",
+        "StatefulWidget",
+        "Container"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget is used for layout in a row?",
+      "options": [
+        "Row",
+        "Column",
+        "Stack",
+        "Container"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget is used for layout in a column?",
+      "options": [
+        "Row",
+        "Column",
+        "ListView",
+        "Stack"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which widget is used to align child widgets horizontally or vertically?",
+      "options": [
+        "Row",
+        "Column",
+        "Both Row and Column",
+        "Stack"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which widget overlays widgets on top of each other?",
+      "options": [
+        "Stack",
+        "Row",
+        "Column",
+        "Container"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the parent widget for most Material Design apps?",
+      "options": [
+        "Scaffold",
+        "Container",
+        "AppBar",
+        "Center"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget displays text in Flutter?",
+      "options": [
+        "TextView",
+        "Text",
+        "Label",
+        "Paragraph"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which widget is used to detect taps?",
+      "options": [
+        "GestureDetector",
+        "TouchView",
+        "TapBox",
+        "Listener"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget adds space between elements?",
+      "options": [
+        "SizedBox",
+        "Spacer",
+        "Both",
+        "Padding"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which widget adds padding around its child?",
+      "options": [
+        "Container",
+        "Padding",
+        "Center",
+        "Stack"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which widget centers its child?",
+      "options": [
+        "Center",
+        "Align",
+        "Container",
+        "Padding"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget allows scrollable content?",
+      "options": [
+        "SingleChildScrollView",
+        "ListView",
+        "Both",
+        "Stack"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the default app theme class?",
+      "options": [
+        "ThemeData",
+        "AppTheme",
+        "MaterialTheme",
+        "DesignData"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget is used for showing buttons?",
+      "options": [
+        "FlatButton",
+        "ElevatedButton",
+        "TextButton",
+        "All of these"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which widget is used to show images?",
+      "options": [
+        "Image.asset()",
+        "Image.network()",
+        "Both",
+        "None"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which widget provides app navigation structure?",
+      "options": [
+        "Navigator",
+        "Router",
+        "Scaffold",
+        "MaterialApp"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which method is used to navigate to another page?",
+      "options": [
+        "Navigator.push()",
+        "Navigator.open()",
+        "Navigator.go()",
+        "Navigator.next()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which method is used to go back to the previous page?",
+      "options": [
+        "Navigator.pop()",
+        "Navigator.close()",
+        "Navigator.exit()",
+        "Navigator.back()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which function builds the UI in Flutter widgets?",
+      "options": [
+        "build()",
+        "init()",
+        "create()",
+        "start()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is setState() used for?",
+      "options": [
+        "Update UI",
+        "Start app",
+        "Stop app",
+        "Exit app"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget provides a visual structure for Material Design?",
+      "options": [
+        "Scaffold",
+        "Container",
+        "Center",
+        "Column"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does the AppBar widget display?",
+      "options": [
+        "Title bar",
+        "Navigation drawer",
+        "Floating button",
+        "Footer"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget creates a floating action button?",
+      "options": [
+        "FloatingActionButton",
+        "RaisedButton",
+        "IconButton",
+        "TextButton"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget is used to build a list?",
+      "options": [
+        "ListView",
+        "Column",
+        "Row",
+        "Stack"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What command shows connected devices?",
+      "options": [
+        "flutter devices",
+        "flutter list",
+        "flutter info",
+        "flutter show"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which file runs when you start your app?",
+      "options": [
+        "main.dart",
+        "home.dart",
+        "run.dart",
+        "index.dart"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Flutter apps are built using which design style?",
+      "options": [
+        "Material Design",
+        "Cupertino",
+        "Both",
+        "None"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which widget provides an iOS-style interface?",
+      "options": [
+        "CupertinoApp",
+        "MaterialApp",
+        "IosApp",
+        "Scaffold"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the use of the Container widget?",
+      "options": [
+        "For styling and layout",
+        "For animations",
+        "For navigation",
+        "For routing"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which keyword is used to declare constants in Dart?",
+      "options": [
+        "const",
+        "final",
+        "var",
+        "let"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which keyword declares a variable in Dart?",
+      "options": [
+        "var",
+        "int",
+        "num",
+        "define"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which function is used to print output in Dart?",
+      "options": [
+        "write()",
+        "display()",
+        "print()",
+        "show()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What symbol is used for string interpolation in Dart?",
+      "options": [
+        "#",
+        "$",
+        "%",
+        "&"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the default return type of main() in Dart?",
+      "options": [
+        "void",
+        "int",
+        "String",
+        "dynamic"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Dart is a ___ typed language.",
+      "options": [
+        "Loosely",
+        "Strongly",
+        "Weakly",
+        "Dynamic"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the entry point of a Dart program?",
+      "options": [
+        "init()",
+        "run()",
+        "main()",
+        "start()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which method is used to delay code execution?",
+      "options": [
+        "Future.delayed()",
+        "wait()",
+        "sleep()",
+        "hold()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget is used for showing alerts?",
+      "options": [
+        "AlertDialog",
+        "DialogBox",
+        "Popup",
+        "MessageBox"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget is used for user input?",
+      "options": [
+        "TextField",
+        "InputBox",
+        "TextInput",
+        "Form"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the use of Theme widget?",
+      "options": [
+        "Change appearance",
+        "Add logic",
+        "Add animations",
+        "Store data"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What command updates all Flutter dependencies?",
+      "options": [
+        "flutter pub get",
+        "flutter pub upgrade",
+        "flutter refresh",
+        "flutter update"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which command shows Flutter version?",
+      "options": [
+        "flutter doctor",
+        "flutter -v",
+        "flutter --version",
+        "flutter info"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What command checks system setup for Flutter?",
+      "options": [
+        "flutter doctor",
+        "flutter check",
+        "flutter setup",
+        "flutter verify"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget is used for progress indicators?",
+      "options": [
+        "CircularProgressIndicator",
+        "Progress",
+        "Loader",
+        "Spinner"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which function is called when a StatefulWidget is created?",
+      "options": [
+        "initState()",
+        "build()",
+        "dispose()",
+        "start()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which function is called when a widget is destroyed?",
+      "options": [
+        "dispose()",
+        "end()",
+        "stop()",
+        "close()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget is used for form validation?",
+      "options": [
+        "Form",
+        "Validate",
+        "FormField",
+        "CheckForm"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget displays an image from the internet?",
+      "options": [
+        "Image.network()",
+        "Image.asset()",
+        "Image.file()",
+        "Image.link()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in Dart?",
+      "options": [
+        "try",
+        "catch",
+        "throw",
+        "All of these"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which keyword defines an asynchronous function?",
+      "options": [
+        "async",
+        "await",
+        "future",
+        "thread"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which keyword waits for async operations to complete?",
+      "options": [
+        "await",
+        "delay",
+        "pause",
+        "next"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which method adds spacing around widgets?",
+      "options": [
+        "Padding()",
+        "Container()",
+        "Margin()",
+        "Spacer()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget helps in alignment?",
+      "options": [
+        "Align",
+        "Positioned",
+        "Center",
+        "All of these"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which widget is used to draw cards?",
+      "options": [
+        "Card",
+        "Container",
+        "Box",
+        "Tile"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget shows a list of tiles?",
+      "options": [
+        "ListTile",
+        "ListView",
+        "TileList",
+        "ViewList"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which widget shows icons?",
+      "options": [
+        "Icon",
+        "IconButton",
+        "Both",
+        "None"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which widget adds rounded corners and background color?",
+      "options": [
+        "Container",
+        "BoxDecoration",
+        "Decoration",
+        "Border"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which widget is used to wrap another widget with decoration?",
+      "options": [
+        "Container",
+        "DecoratedBox",
+        "Padding",
+        "Align"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which widget creates a scrollable list with separators?",
+      "options": [
+        "ListView.separated",
+        "ListView.builder",
+        "GridView.builder",
+        "ScrollView"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget is used for grid layouts?",
+      "options": [
+        "GridView",
+        "ListView",
+        "Column",
+        "Row"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget allows child widgets to expand within a row or column?",
+      "options": [
+        "Expanded",
+        "Flexible",
+        "Both",
+        "Align"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which widget is used for animation?",
+      "options": [
+        "AnimatedContainer",
+        "AnimationBox",
+        "AnimatedWidget",
+        "Both A and C"
+      ],
+      "answer": 3
+    },
+    {
+      "question": "Which widget shows short messages at bottom?",
+      "options": [
+        "Snackbar",
+        "Toast",
+        "Popup",
+        "Alert"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which command builds release APK?",
+      "options": [
+        "flutter build apk",
+        "flutter run",
+        "flutter release",
+        "flutter create apk"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which command runs an app in profile mode?",
+      "options": [
+        "flutter run --profile",
+        "flutter run",
+        "flutter start",
+        "flutter --profile"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which tool is used to inspect Flutter performance?",
+      "options": [
+        "DevTools",
+        "Inspector",
+        "Profiler",
+        "Analyzer"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is DartPad?",
+      "options": [
+        "Online Dart editor",
+        "Mobile IDE",
+        "Debugger",
+        "Flutter Emulator"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Flutter is ___ platform.",
+      "options": [
+        "Cross-platform",
+        "Single-platform",
+        "Server-only",
+        "Web-only"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which file stores asset declarations?",
+      "options": [
+        "pubspec.yaml",
+        "assets.json",
+        "config.dart",
+        "flutter.xml"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which command cleans build cache?",
+      "options": [
+        "flutter clean",
+        "flutter reset",
+        "flutter cache clear",
+        "flutter rebuild"
+      ],
+      "answer": 0
+    }
+  ],
+  "medium": [
+    {
+      "question": "What is a Scaffold widget used for in Flutter?",
+      "options": [
+        "State management",
+        "Basic visual structure of an app",
+        "Navigation",
+        "Animations"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which widget is used to detect user gestures?",
+      "options": [
+        "Listener",
+        "GestureDetector",
+        "TouchBox",
+        "EventListener"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of setState() in Flutter?",
+      "options": [
+        "Initialize variables",
+        "Update UI when state changes",
+        "Restart app",
+        "Create a widget"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which widget allows vertical scrolling?",
+      "options": [
+        "Row",
+        "Column",
+        "ListView",
+        "Container"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "The build() method in Flutter is used to:",
+      "options": [
+        "Create a database",
+        "Build UI for the widget",
+        "Handle events",
+        "Load files"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which function is mandatory inside every Flutter app?",
+      "options": [
+        "startApp()",
+        "main()",
+        "runApp()",
+        "initApp()"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "Which widget is immutable in Flutter?",
+      "options": [
+        "StatelessWidget",
+        "StatefulWidget",
+        "InheritedWidget",
+        "StreamBuilder"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Navigator.push() is used to:",
+      "options": [
+        "Go to a new screen",
+        "Reload page",
+        "Close screen",
+        "Restart app"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget is used for padding?",
+      "options": [
+        "Container",
+        "SizedBox",
+        "Padding",
+        "Align"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is an async function in Dart?",
+      "options": [
+        "A function that runs synchronously",
+        "A delayed function",
+        "A function that runs asynchronously",
+        "A private function"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "How do you add dependencies in Flutter?",
+      "options": [
+        "In pubspec.yaml",
+        "In main.dart",
+        "In settings.json",
+        "In AndroidManifest.xml"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the use of MediaQuery in Flutter?",
+      "options": [
+        "Database access",
+        "Screen size and orientation info",
+        "Networking",
+        "State management"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which widget displays a list with separators?",
+      "options": [
+        "ListView",
+        "ListView.builder",
+        "ListView.separated",
+        "GridView"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What does the 'const' keyword do in Flutter?",
+      "options": [
+        "Makes object mutable",
+        "Improves performance by making widgets immutable",
+        "Disables rebuilds",
+        "Adds state"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of initState() method?",
+      "options": [
+        "To destroy widget",
+        "To initialize widget state",
+        "To pause execution",
+        "To restart widget"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which widget allows children to overlap?",
+      "options": [
+        "Row",
+        "Column",
+        "Stack",
+        "Align"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "How do you navigate back to the previous screen?",
+      "options": [
+        "Navigator.pop()",
+        "Navigator.back()",
+        "Navigator.close()",
+        "Navigator.exit()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget provides flexible space distribution in a Row?",
+      "options": [
+        "Expanded",
+        "Container",
+        "Padding",
+        "Align"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How do you make a widget clickable?",
+      "options": [
+        "Wrap with GestureDetector",
+        "Wrap with Row",
+        "Wrap with Center",
+        "Wrap with Column"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the difference between ListView and Column?",
+      "options": [
+        "ListView scrolls; Column doesn't",
+        "Column scrolls; ListView doesn’t",
+        "Both scroll",
+        "Both are same"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget allows both horizontal and vertical scroll?",
+      "options": [
+        "ScrollView",
+        "SingleChildScrollView",
+        "ListView",
+        "Flex"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is a key used for in Flutter widgets?",
+      "options": [
+        "Styling",
+        "Uniquely identifying widgets",
+        "Binding data",
+        "Navigation"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which widget gives spacing between widgets?",
+      "options": [
+        "SizedBox",
+        "Stack",
+        "Row",
+        "Align"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of FutureBuilder?",
+      "options": [
+        "Handles async data",
+        "Builds UI layouts",
+        "Creates animations",
+        "Adds colors"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does the term 'hot reload' mean?",
+      "options": [
+        "Restarting app fully",
+        "Updating code without restart",
+        "Clearing cache",
+        "Stopping build"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "How do you change app theme?",
+      "options": [
+        "In MaterialApp",
+        "In main.dart",
+        "In Scaffold",
+        "In pubspec.yaml"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget centers its child?",
+      "options": [
+        "Center",
+        "Align",
+        "Column",
+        "Container"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the use of Container widget?",
+      "options": [
+        "Display lists",
+        "Layout, padding, color, and alignment",
+        "Navigation",
+        "Networking"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which widget displays images from assets?",
+      "options": [
+        "Image.asset()",
+        "Image.file()",
+        "Image.network()",
+        "Image.local()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does async and await do in Dart?",
+      "options": [
+        "Run code synchronously",
+        "Handle asynchronous operations",
+        "Pause code permanently",
+        "Compile faster"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which widget is used for creating tabs?",
+      "options": [
+        "Tab",
+        "DefaultTabController",
+        "TabPanel",
+        "Navigator"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of SafeArea widget?",
+      "options": [
+        "Prevent overlaps with system UI",
+        "Manage data",
+        "Add animations",
+        "Change color"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What widget is used to display web content?",
+      "options": [
+        "WebView",
+        "InternetView",
+        "BrowserWidget",
+        "HTMLView"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget provides scrolling in only one direction?",
+      "options": [
+        "ScrollView",
+        "SingleChildScrollView",
+        "GridView",
+        "ListTile"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the difference between Hot Restart and Hot Reload?",
+      "options": [
+        "Hot reload keeps state; restart resets it",
+        "Both are same",
+        "Restart is faster",
+        "Reload clears memory"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which class is the entry point for Flutter apps?",
+      "options": [
+        "App",
+        "MainApp",
+        "MaterialApp",
+        "FlutterApp"
+      ],
+      "answer": 2
+    },
+    {
+      "question": "What is the default axis of a Column widget?",
+      "options": [
+        "Horizontal",
+        "Vertical",
+        "Diagonal",
+        "Circular"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What widget defines app routes?",
+      "options": [
+        "Navigator",
+        "MaterialApp",
+        "Route",
+        "PageView"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which widget is used for layout alignment?",
+      "options": [
+        "Align",
+        "Stack",
+        "Flex",
+        "Column"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget is used to display a button?",
+      "options": [
+        "Button()",
+        "TextButton()",
+        "Input()",
+        "Clickable()"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of Expanded widget?",
+      "options": [
+        "Share space proportionally",
+        "Add padding",
+        "Align text",
+        "Scroll"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget helps with flexible layouts?",
+      "options": [
+        "Flexible",
+        "Column",
+        "Stack",
+        "Scaffold"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How do you show a dialog in Flutter?",
+      "options": [
+        "showDialog()",
+        "displayDialog()",
+        "openDialog()",
+        "DialogBox()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What widget is used to handle user forms?",
+      "options": [
+        "InputBox",
+        "Form",
+        "TextForm",
+        "Field"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "How do you handle long lists efficiently?",
+      "options": [
+        "ListView.builder",
+        "Column",
+        "Row",
+        "Stack"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the function of debugShowCheckedModeBanner?",
+      "options": [
+        "Hide debug banner",
+        "Enable debug logs",
+        "Start debug mode",
+        "Restart IDE"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How do you add app icons in Flutter?",
+      "options": [
+        "In pubspec.yaml",
+        "Using flutter_launcher_icons package",
+        "In AndroidManifest.xml",
+        "In main.dart"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which widget is used for responsive design?",
+      "options": [
+        "LayoutBuilder",
+        "Row",
+        "Padding",
+        "Container"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does the term 'widget tree' mean?",
+      "options": [
+        "Database of widgets",
+        "Hierarchy of widgets",
+        "Animations",
+        "Dependency graph"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "Which widget displays a floating button?",
+      "options": [
+        "FloatingActionButton",
+        "ActionButton",
+        "CircleButton",
+        "IconButton"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What widget adds background color to its child?",
+      "options": [
+        "Container",
+        "Padding",
+        "Align",
+        "SizedBox"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does Navigator.pop(context) do?",
+      "options": [
+        "Open screen",
+        "Go back",
+        "Restart app",
+        "Rebuild UI"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What widget provides responsive height and width?",
+      "options": [
+        "MediaQuery",
+        "Container",
+        "Expanded",
+        "Padding"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How do you access assets in Flutter?",
+      "options": [
+        "Define in pubspec.yaml",
+        "Load directly",
+        "In Android folder",
+        "Via code only"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget allows fading animations?",
+      "options": [
+        "FadeTransition",
+        "AnimatedOpacity",
+        "Opacity",
+        "FadeWidget"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is a StatefulWidget mainly used for?",
+      "options": [
+        "Static content",
+        "Dynamic content",
+        "Routing",
+        "Networking"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What command is used to get dependencies?",
+      "options": [
+        "flutter pub get",
+        "flutter install",
+        "flutter fetch",
+        "flutter deps"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How can you use JSON in Flutter?",
+      "options": [
+        "dart:convert package",
+        "flutter_json package",
+        "xml parser",
+        "firebase only"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which widget shows a temporary message at bottom?",
+      "options": [
+        "Snackbar",
+        "Toast",
+        "Dialog",
+        "Alert"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What widget detects scrolling?",
+      "options": [
+        "ScrollController",
+        "GestureDetector",
+        "ListView",
+        "ScrollDetector"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the main advantage of widgets in Flutter?",
+      "options": [
+        "Everything is a widget",
+        "They reduce code",
+        "They are static",
+        "They compile faster"
+      ],
+      "answer": 0
+    }
+  ],
+  "strong": [
+    {
+      "question": "What is the difference between a StatefulWidget and a State object in Flutter?",
+      "options": [
+        "They are the same",
+        "StatefulWidget is immutable and State is mutable",
+        "State holds UI data permanently",
+        "StatefulWidget controls app navigation"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "How does Flutter’s rendering pipeline work?",
+      "options": [
+        "It converts widgets to native views",
+        "It paints widgets using Skia engine layers",
+        "It uses HTML DOM rendering",
+        "It compiles widgets to XML layouts"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of BuildContext in Flutter?",
+      "options": [
+        "It provides access to widget tree and theme data",
+        "It stores app configuration",
+        "It represents an activity",
+        "It is used only for routing"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of an InheritedWidget?",
+      "options": [
+        "To store and share data efficiently across widgets",
+        "To inherit widget colors",
+        "To manage navigation",
+        "To handle animations"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the difference between widget tree and element tree?",
+      "options": [
+        "Widget tree is mutable",
+        "Element tree manages widget lifecycle",
+        "They are identical",
+        "Element tree stores network data"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "How can you optimize widget rebuilds in Flutter?",
+      "options": [
+        "Use const constructors and keys",
+        "Call setState() frequently",
+        "Avoid using StatelessWidget",
+        "Use many nested widgets"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of a GlobalKey?",
+      "options": [
+        "To identify widgets uniquely across the widget tree",
+        "To store global state",
+        "To access Firebase data",
+        "To register plugins"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How does the const keyword help performance?",
+      "options": [
+        "It caches widget instances to avoid rebuilds",
+        "It increases CPU usage",
+        "It disables hot reload",
+        "It compiles widgets faster"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of didChangeDependencies()?",
+      "options": [
+        "To detect dependency changes and rebuild",
+        "To initialize variables",
+        "To dispose controllers",
+        "To start animations"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What are isolates in Dart?",
+      "options": [
+        "Independent threads of execution",
+        "UI elements",
+        "Firebase instances",
+        "Database tables"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What function runs a Flutter app?",
+      "options": [
+        "runApp()",
+        "startApp()",
+        "initApp()",
+        "mainApp()"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of the compute() function?",
+      "options": [
+        "To run expensive tasks in another isolate",
+        "To handle UI events",
+        "To start a build process",
+        "To manage widgets"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is a platform channel in Flutter?",
+      "options": [
+        "A bridge for communication between Dart and native code",
+        "A media player",
+        "An internet connection",
+        "A web socket"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "Which method detects rebuild requests in StatefulWidget?",
+      "options": [
+        "build()",
+        "didUpdateWidget()",
+        "initState()",
+        "dispose()"
+      ],
+      "answer": 1
+    },
+    {
+      "question": "What is dependency injection?",
+      "options": [
+        "A technique for providing dependencies to classes",
+        "A security method",
+        "A UI animation",
+        "A data encryption tool"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the main benefit of Riverpod over Provider?",
+      "options": [
+        "Compile-time safety and global access",
+        "It uses less RAM",
+        "It supports Firebase",
+        "It replaces MaterialApp"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is Bloc used for?",
+      "options": [
+        "State management using streams",
+        "File management",
+        "Authentication",
+        "Rendering graphics"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What are Futures in Dart?",
+      "options": [
+        "Represent values that will be available later",
+        "Hold synchronous data",
+        "Store global variables",
+        "Represent widget trees"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What are Streams in Dart?",
+      "options": [
+        "Sequences of asynchronous data events",
+        "Collections of static data",
+        "UI rendering tools",
+        "App configuration files"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is an async* function in Dart?",
+      "options": [
+        "It returns a Stream",
+        "It pauses code",
+        "It creates Futures",
+        "It stops an isolate"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the Flutter engine built on?",
+      "options": [
+        "Skia graphics engine",
+        "Android NDK",
+        "React Native core",
+        "Electron"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the difference between JIT and AOT compilation?",
+      "options": [
+        "JIT is for debugging, AOT for release builds",
+        "AOT is slower",
+        "JIT compiles to native",
+        "Both are same"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How can you reduce Flutter app size?",
+      "options": [
+        "Enable tree shaking",
+        "Add large assets",
+        "Use many packages",
+        "Avoid code splitting"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is tree shaking?",
+      "options": [
+        "Removing unused code from the build",
+        "Optimizing UI layout",
+        "Compacting images",
+        "Reducing API calls"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is a Sliver in Flutter?",
+      "options": [
+        "A scrollable portion of the screen",
+        "A type of animation",
+        "A gesture detector",
+        "A data model"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How do you test UI components in Flutter?",
+      "options": [
+        "Using widget tests",
+        "Using console logs",
+        "Using debugPaintSize",
+        "Using Android logs"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is a Golden test?",
+      "options": [
+        "A visual regression test",
+        "A performance test",
+        "A database test",
+        "An API test"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does WidgetTester help with?",
+      "options": [
+        "Simulating user interactions in tests",
+        "Running HTTP requests",
+        "Handling animations",
+        "Managing app state"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is an implicit animation?",
+      "options": [
+        "Animation handled automatically by widget changes",
+        "Manual frame-by-frame animation",
+        "GIF animation",
+        "Audio transition"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of AnimationController?",
+      "options": [
+        "To control animations programmatically",
+        "To build layouts",
+        "To connect APIs",
+        "To handle databases"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is a Hero animation?",
+      "options": [
+        "An animation between two screens using shared elements",
+        "A background animation",
+        "A looping GIF",
+        "A fade-in image"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does Transform widget do?",
+      "options": [
+        "Applies rotation, scaling, or translation to widgets",
+        "Changes color",
+        "Adds padding",
+        "Manages routes"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is a CustomPainter used for?",
+      "options": [
+        "Drawing custom shapes and graphics",
+        "Loading images",
+        "Testing widgets",
+        "Handling errors"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is a ShaderMask used for?",
+      "options": [
+        "To apply gradients or effects to child widgets",
+        "To blur background",
+        "To compress images",
+        "To clip paths"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is Navigator 2.0 used for?",
+      "options": [
+        "Declarative navigation and deep linking",
+        "Page animation",
+        "Authentication",
+        "API routing"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How does Flutter communicate with native code?",
+      "options": [
+        "Using Platform Channels",
+        "Through JSON files",
+        "By sockets",
+        "Directly through APIs"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is Pigeon in Flutter?",
+      "options": [
+        "A tool for type-safe platform communication",
+        "An animation package",
+        "A database",
+        "A testing tool"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is deferred component loading?",
+      "options": [
+        "Loading app parts on demand",
+        "Preloading images",
+        "Offline caching",
+        "Splash screen loading"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of RepaintBoundary?",
+      "options": [
+        "To isolate repaints for better performance",
+        "To block gestures",
+        "To handle layout changes",
+        "To debug layout"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the main function of Bloc?",
+      "options": [
+        "To separate business logic from UI",
+        "To handle animations",
+        "To store images",
+        "To manage threads"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How do you persist app data in Flutter?",
+      "options": [
+        "Using SharedPreferences or databases",
+        "Using const widgets",
+        "By caching builds",
+        "By storing in memory only"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the use of Hive in Flutter?",
+      "options": [
+        "A lightweight NoSQL database",
+        "Animation tool",
+        "Networking package",
+        "Image compressor"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is a Cubit in Bloc pattern?",
+      "options": [
+        "A simpler Bloc variant without events",
+        "A UI component",
+        "An animation widget",
+        "An HTTP handler"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What are Mixins in Dart?",
+      "options": [
+        "Classes that share methods without inheritance",
+        "JSON parsers",
+        "Database layers",
+        "Testing utilities"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is late keyword used for?",
+      "options": [
+        "Lazy initialization of variables",
+        "For constant values",
+        "To mark async functions",
+        "To set compile-time constants"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is hot reload?",
+      "options": [
+        "Instantly updates UI without restarting app",
+        "Compiles code again fully",
+        "Clears cache",
+        "Only restarts Dart VM"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How do you implement infinite scrolling?",
+      "options": [
+        "Using ListView.builder with scroll listener",
+        "Using GridView",
+        "By nesting columns",
+        "By adding padding"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does MediaQuery provide?",
+      "options": [
+        "Device screen size and orientation info",
+        "Network data",
+        "App theme colors",
+        "Local storage"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What are FutureBuilders used for?",
+      "options": [
+        "To build widgets based on asynchronous data",
+        "To store files",
+        "To run animations",
+        "To control themes"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is a StreamBuilder?",
+      "options": [
+        "A widget that rebuilds on stream data changes",
+        "A Future handler",
+        "A state manager",
+        "A layout builder"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is Provider used for?",
+      "options": [
+        "Dependency injection and state management",
+        "Database connection",
+        "File upload",
+        "UI animation"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is Flutter DevTools used for?",
+      "options": [
+        "Debugging and performance profiling",
+        "Writing tests",
+        "Designing UIs",
+        "Packaging APKs"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does runZonedGuarded do?",
+      "options": [
+        "Captures errors in Dart zones",
+        "Runs isolate",
+        "Starts app faster",
+        "Logs UI changes"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is a MaterialApp widget?",
+      "options": [
+        "Entry point providing navigation and theming",
+        "A layout widget",
+        "An image loader",
+        "A dialog"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is CupertinoApp used for?",
+      "options": [
+        "To create iOS-style apps",
+        "To load web apps",
+        "To manage images",
+        "To style Android UIs"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What are constraints in Flutter layout?",
+      "options": [
+        "Rules defining widget size and position",
+        "Animations",
+        "Data filters",
+        "Route paths"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is an Overlay widget?",
+      "options": [
+        "Displays floating widgets like dialogs or menus",
+        "Adds transparency",
+        "Manages routing",
+        "Builds themes"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the Scaffold widget used for?",
+      "options": [
+        "Provides basic visual structure for Material Design layout",
+        "Loads animations",
+        "Handles Firebase",
+        "Builds ListView"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does ThemeData control?",
+      "options": [
+        "Colors, fonts, and styling of the app",
+        "Image loading",
+        "Performance logs",
+        "App routing"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How do you use pushReplacement in Navigator?",
+      "options": [
+        "Replaces current route with a new one",
+        "Adds new route above stack",
+        "Removes all routes",
+        "Closes the app"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is a Future.delayed used for?",
+      "options": [
+        "Delays code execution asynchronously",
+        "Pauses thread",
+        "Stops animation",
+        "Refreshes layout"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What are widgets in Flutter?",
+      "options": [
+        "Everything in Flutter’s UI hierarchy",
+        "Only layouts",
+        "Only buttons",
+        "Only animations"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of SafeArea?",
+      "options": [
+        "Avoids system UI overlaps",
+        "Adds padding",
+        "Changes orientation",
+        "Disables gestures"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is ClipRRect used for?",
+      "options": [
+        "To round widget corners",
+        "To crop images",
+        "To manage focus",
+        "To render text"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is AnimatedBuilder used for?",
+      "options": [
+        "To optimize rebuilding during animations",
+        "To draw shapes",
+        "To load images",
+        "To change colors"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What are the advantages of Flutter over React Native?",
+      "options": [
+        "Native performance and single codebase rendering engine",
+        "Uses JavaScript",
+        "Smaller size",
+        "More community packages"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the advantage of using const widgets?",
+      "options": [
+        "They improve performance by caching builds",
+        "They increase rebuilds",
+        "They change state easily",
+        "They avoid hot reload"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is an AppLifecycleState?",
+      "options": [
+        "State representing app foreground/background changes",
+        "Widget lifecycle",
+        "Animation state",
+        "Gesture state"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is a SingleTickerProviderStateMixin used for?",
+      "options": [
+        "To manage animation controllers efficiently",
+        "To handle network requests",
+        "To manage threads",
+        "To manage layout"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the benefit of using ValueNotifier?",
+      "options": [
+        "Provides lightweight reactivity without full state management",
+        "Stores animations",
+        "Loads network data",
+        "Saves files"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does the assert keyword do?",
+      "options": [
+        "Validates conditions during development",
+        "Runs tests",
+        "Throws compile-time errors",
+        "Optimizes performance"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is a Positioned widget used for?",
+      "options": [
+        "To position children inside Stack",
+        "To change color",
+        "To animate opacity",
+        "To add shadows"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does AnimatedOpacity do?",
+      "options": [
+        "Animates visibility transparency",
+        "Changes layout",
+        "Manages theme",
+        "Loads data"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What are nested navigators used for?",
+      "options": [
+        "Independent navigation stacks within parts of the app",
+        "Nested animations",
+        "Multiple threads",
+        "Nested gestures"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the main difference between Flutter Web and Mobile?",
+      "options": [
+        "Web renders using HTML/CSS/Canvas, Mobile uses Skia",
+        "Web uses native views",
+        "Web is faster",
+        "Mobile uses HTML"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What are the limitations of Flutter Web?",
+      "options": [
+        "Larger bundle size and limited SEO",
+        "No support for Firebase",
+        "No animations",
+        "Limited widgets"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How can you secure API keys in Flutter?",
+      "options": [
+        "Use environment variables or backend proxy",
+        "Store in Dart files",
+        "Add in assets folder",
+        "Save in SharedPreferences"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is dependency inversion principle?",
+      "options": [
+        "High-level modules should not depend on low-level modules",
+        "UI should depend on backend",
+        "Variables depend on constants",
+        "Functions must depend on data"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How can you use StreamController?",
+      "options": [
+        "To create custom data streams",
+        "To build UI widgets",
+        "To manage navigation",
+        "To store files"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the function of OverlayEntry?",
+      "options": [
+        "To insert widgets dynamically above UI",
+        "To draw backgrounds",
+        "To load APIs",
+        "To change fonts"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How does Flutter achieve platform independence?",
+      "options": [
+        "By using its own rendering engine",
+        "By using web views",
+        "By compiling native XML layouts",
+        "By depending on OS UI"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is widget composition?",
+      "options": [
+        "Building complex UI from smaller widgets",
+        "Running multiple threads",
+        "Merging data streams",
+        "Combining Dart files"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How can you cache HTTP responses?",
+      "options": [
+        "Using Dio interceptors or cache plugins",
+        "Using SharedPreferences",
+        "Using ListView",
+        "Using layouts"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What are extension methods in Dart?",
+      "options": [
+        "Add new functionality to existing classes",
+        "Replace inheritance",
+        "Modify core libraries",
+        "Override interfaces"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is a factory constructor?",
+      "options": [
+        "A constructor that returns an existing or new instance",
+        "A constructor for widgets only",
+        "A static method",
+        "An async constructor"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the purpose of const constructors?",
+      "options": [
+        "To create immutable, reusable widgets",
+        "To manage threads",
+        "To serialize data",
+        "To debug errors"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How can you minimize jank in Flutter?",
+      "options": [
+        "Move heavy work to isolates and use RepaintBoundary",
+        "Use many nested widgets",
+        "Run async on main thread",
+        "Increase frame rate"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What are the different types of streams?",
+      "options": [
+        "Single-subscription and broadcast",
+        "Synchronous and async",
+        "Hot and cold",
+        "Static and dynamic"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the main use of flutter_secure_storage?",
+      "options": [
+        "To store sensitive data securely",
+        "To log user data",
+        "To manage UI themes",
+        "To cache images"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is a Zone in Dart?",
+      "options": [
+        "An execution context for async operations",
+        "A database connection",
+        "A Flutter widget",
+        "A stream controller"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How can you handle uncaught async errors?",
+      "options": [
+        "Using runZonedGuarded()",
+        "Using try-catch only",
+        "By printing logs",
+        "By ignoring them"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What are isolates best used for?",
+      "options": [
+        "Heavy computation without blocking UI",
+        "UI rendering",
+        "Animations",
+        "Firebase queries"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the main advantage of null safety in Dart?",
+      "options": [
+        "Prevents null reference errors at compile time",
+        "Reduces performance",
+        "Increases file size",
+        "Allows more errors"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is const vs final in Dart?",
+      "options": [
+        "const is compile-time constant, final is run-time constant",
+        "Both are same",
+        "const changes value later",
+        "final changes at compile time"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What does the super keyword refer to?",
+      "options": [
+        "The parent class of a subclass",
+        "A static method",
+        "A global variable",
+        "A Flutter plugin"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "How can you make responsive UIs?",
+      "options": [
+        "Use LayoutBuilder and MediaQuery",
+        "Fix pixel widths",
+        "Use static columns",
+        "Avoid Expanded widgets"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is an enum used for?",
+      "options": [
+        "To define a set of named constant values",
+        "To loop through lists",
+        "To store functions",
+        "To declare variables"
+      ],
+      "answer": 0
+    },
+    {
+      "question": "What is the advantage of using const constructors?",
+      "options": [
+        "Widgets are reused without rebuilds",
+        "Faster network requests",
+        "Bigger APKs",
+        "Improved RAM usage only"
+      ],
+      "answer": 0
+    }
+  ]
+}
+
+
+
