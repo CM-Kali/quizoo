@@ -17,7 +17,7 @@ class QuizApp extends StatelessWidget {
         primarySwatch: Colors.teal,
         fontFamily: 'Roboto',
       ),
-      home: const HomeScreen(),
+      home: HomeScreen(),
     );
   }
 }
